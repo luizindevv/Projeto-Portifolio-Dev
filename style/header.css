@@ -9,16 +9,14 @@
 }
 
 .info {
-
-   
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
     padding-block: 120px;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
     }
 
 p {
@@ -26,6 +24,11 @@ p {
             font: var(--subtitle);
             padding-top: 56px;
         }
+
+strong {
+    color: var(--color-red);
+    font: inherit;
+}
 
 span {
             color: var(--color-gray-300);

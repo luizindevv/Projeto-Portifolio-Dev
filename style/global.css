@@ -32,11 +32,16 @@
 
 }
 
-
-.subtitle {
-    color: var(--color-red);
-    font: inherit;
+   h2 {
+    font: var(--title-md);
+    color: var(--color-gray-100);
    }
+
+   h3 {
+    font: var(--title-sm);
+    color: var(--color-gray-100);
+   }
+
 
 
 
