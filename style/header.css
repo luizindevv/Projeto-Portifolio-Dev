@@ -66,8 +66,45 @@ h1 {
 
 .tags img {
     width: 24px;
-    height: 24px;
-    border-radius: 50%; 
+    height: 24px
 }
 
+.icon-text span {
+    font: var(--text-md);
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-400);
+    border-radius: 40px;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+.GitHub {
+    width: 114px;
+}
+
+.html {
+    width: 105px;
+}
+
+.css {
+    width: 92px;
+}
+.js {
+    width: 138px;
+}
+.react {
+    width: 106px;
+}
+.node {
+    width: 119px;
+}
+
+.caretdouble {
+    padding-top: 94px;
+}
 
