@@ -1,0 +1,33 @@
+.subtitle_2 {
+    padding-top: 232px;
+    color: var(--color-red);
+    font: var(--subtitle);
+}
+
+.services {
+    background-color: var(--color-gray-600);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 24px;
+    padding: 64px 24px;
+    
+     
+}
+
+.icons-services img {
+    height: 48px;
+    width: 48px;
+
+}
+
+.icons-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid red;
+    gap: 24px;
+}
