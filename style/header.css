@@ -8,6 +8,7 @@
     border: 2px solid var(--color-red);
 }
 
+
 .info {
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
@@ -50,13 +51,21 @@ h1 {
     top: 79%;
     right: 9%;
     height: 32px;
-    width: 32px;   
+    width: 32px;
 }
+
+
 
 .photo-container {
     position: relative;      
     display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
         
+}
+
+.photo-container:hover {
+    transform: scale(1.50);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); 
 }
 
 .tags {
