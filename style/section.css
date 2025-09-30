@@ -1,33 +1,45 @@
 .subtitle_2 {
-    padding-top: 232px;
+    text-align: center;
     color: var(--color-red);
     font: var(--subtitle);
 }
 
 .services {
     background-color: var(--color-gray-600);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
     justify-items: center;
-    gap: 24px;
-    padding: 64px 24px;
-    
-     
+    padding-top: 88px;
+    padding-bottom: 120px;
 }
 
 .icons-services img {
-    height: 48px;
-    width: 48px;
-
+    height: 60px;
+    width: 60px;
 }
 
 .icons-services {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border: 2px solid var(--color-gray-500);
+    align-items: start;
+    justify-content: center;
+    width: 280px;
+    height: 155px;
+    padding-top:2px;
+    padding-left: 15px;
     text-align: center;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid red;
-    gap: 24px;
+    border-radius: 12px;
+    
 }
+
+.services-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-items: center;
+}
+
+.services h3 {
+    padding-bottom: 8px;
+}
+
